@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Arun Murugesan | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        Arun<span>.</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <button id="theme-toggle">
+        <i class="fas fa-moon"></i>
+    </button>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Arun Murugesan</h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p>
+            Passionate Computer and Communication Engineering student
+            focused on Software Development, Artificial Intelligence,
+            Cybersecurity and Problem Solving.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn">
+                View Projects
+            </a>
+
+            <a href="assets/resume.pdf"
+               download
+               class="btn btn-secondary">
+                Download Resume
+            </a>
+
+        </div>
+
+        <div class="social-icons">
+
+            <a href="https://github.com/Arun-techy"
+               target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/arun-m-114979379"
+               target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="mailto:arunanbu0480@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="assets/profile.jpeg"
+             alt="Arun Murugesan">
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <h2 class="section-title">
+        About Me
+    </h2>
+
+    <div class="about-container">
+
+        <div class="about-card">
+
+            <h3>Who Am I?</h3>
+
+            <p>
+                I am a Computer and Communication Engineering student
+                with strong interest in Software Development,
+                Artificial Intelligence and Cyber Security.
+            </p>
+
+            <div class="info-grid">
+
+                <div>
+                    <strong>Name:</strong>
+                    Arun Murugesan
+                </div>
+
+                <div>
+                    <strong>Location:</strong>
+                    Dindigul, Tamil Nadu
+                </div>
+
+                <div>
+                    <strong>CGPA:</strong>
+                    7.8
+                </div>
+
+                <div>
+                    <strong>Graduation:</strong>
+                    2028
+                </div>
+
+                <div>
+                    <strong>Degree:</strong>
+                    B.E CCE
+                </div>
+
+                <div>
+                    <strong>College:</strong>
+                    VSB Engineering College
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills" class="section">
+
+    <h2 class="section-title">
+        Skills
+    </h2>
+
+    <div class="chart-wrapper">
+
+        <canvas id="skillsChart"></canvas>
+
+    </div>
+
+</section>
+
+<!-- ================= STATS ================= -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="2">2</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="2">0</h2>
+        <p>Certificates</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="5">0</h2>
+        <p>Skills</p>
+    </div>
+
+    <div class="stat-box">
+        <h2 class="counter" data-target="2028">0</h2>
+        <p>Graduation</p>
+    </div>
+
+    <div class="stat-box">
+         <h2 class="counter" data-target="3">0</h2>
+         <p>LeetCode Problems Solved</p>
+     </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="section">
+
+    <h2 class="section-title">
+        Projects
+    </h2>
+
+    <div class="project-grid">
+
+        <div class="project-card">
+
+            <h3>FinSight</h3>
+
+            <p>
+                Smart Budget Planning and Expense Tracking System
+                with financial insights and analytics.
+            </p>
+
+            <div class="tech">
+                React Native • Firebase • JavaScript
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>AI Plant Disease Detection</h3>
+
+            <p>
+                Detect plant diseases using Deep Learning
+                and TensorFlow image classification.
+            </p>
+
+            <div class="tech">
+                Python • TensorFlow • HTML • CSS
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+
+<section id="certifications" class="section">
+
+    <h2 class="section-title">
+        Certifications
+    </h2>
+
+    <div class="certificate-grid">
+
+        <div class="certificate-card">
+
+            <i class="fas fa-award"></i>
+
+            <h3>
+                NPTEL Java Programming
+            </h3>
+
+            <p>
+                Elite + Gold
+            </p>
+
+            <p>
+                Score: 95%
+            </p>
+
+        </div>
+
+        <div class="certificate-card">
+
+            <i class="fas fa-certificate"></i>
+
+            <h3>
+                Python Foundation
+            </h3>
+
+            <p>
+                Infosys Springboard
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="section">
+
+    <h2 class="section-title">
+        Contact Me
+    </h2>
+
+    <form class="contact-form">
+
+        <input
+        type="text"
+        placeholder="Your Name"
+        required>
+
+        <input
+        type="email"
+        placeholder="Your Email"
+        required>
+
+        <textarea
+        rows="6"
+        placeholder="Your Message"></textarea>
+
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+        © 2026 Arun Murugesan.
+        All Rights Reserved.
+    </p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
